@@ -11,8 +11,8 @@ package lazywatch;
  * @author Андрей
  */
 public class Variables {
-    static final String APP_NAME = "LazyWatch";
-    static final String ICON_STR = "icon32x32.png";
-    static final String CONF_STR = "config.ini";
-    static String DEFPORT;
+    public static final String APP_NAME = "LazyWatch";
+    public static final String ICON_STR = "../res/icon.png";
+    public static final String CONF_STR = "../res/config.ini";
+    public static String currentPort;
 }

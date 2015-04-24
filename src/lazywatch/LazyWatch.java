@@ -6,6 +6,8 @@
  */
 package lazywatch;
 
+import lazywatch.gui.LWGUI;
+
 /**
  *
  * @author Андрей
@@ -17,7 +19,6 @@ public class LazyWatch {
      */
     public static void main(String[] args) {
      LWGUI lwGUI = new LWGUI();   
-     lwGUI.createGUI();
     }
     
 }
